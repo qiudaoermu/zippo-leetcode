@@ -1,0 +1,31 @@
+{
+  "name": "zippo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reduceAdd.js",
+  "scripts": {
+    "test": "mocha -r esm test/*.test.js",
+    "lint": "eslint --fix *.js && prettier --write *.js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiudaoermu/zippo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiudaoermu/zippo/issues"
+  },
+  "homepage": "https://github.com/qiudaoermu/zippo#readme",
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.0",
+    "esm": "^3.2.25",
+    "mocha": "^9.0.3",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.3.2"
+  }
+}
