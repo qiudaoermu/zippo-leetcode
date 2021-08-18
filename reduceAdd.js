@@ -13,6 +13,6 @@
  */
 
 function reduceAdd(n) {
-  return n.reduce((a, b) => a + b)
+  return n.reduce((a, b) => a + b);
 }
-export default reduceAdd
+export default reduceAdd;
