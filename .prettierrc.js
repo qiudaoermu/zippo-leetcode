@@ -4,13 +4,13 @@ let base = {
   useTabs: false,
   semi: true,
   singleQuote: false,
-  trailingComma: 'none',
+  trailingComma: "none",
   bracketSpacing: true,
   jsxBracketSameLine: true,
-  arrowParens: 'avoid',
+  arrowParens: "avoid",
   requirePragma: false,
-  proseWrap: 'preserve',
-  endOfLine: 'auto'
+  proseWrap: "preserve",
+  endOfLine: "auto"
 };
 
 module.exports = Object.assign({}, base, {});
