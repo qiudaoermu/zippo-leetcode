@@ -1,4 +1,4 @@
 # zippo
 
-some utils get from questions of letcode;
-welcome fork and contribute;
+some utils library function that got from questions of letcode;
+welcome fork and contribute～～～;

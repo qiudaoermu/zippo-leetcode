@@ -11,5 +11,9 @@ describe("reduceAdd", () => {
     const array = [10, 20, 30, 40, 50];
     assert.strictEqual(reduceAdd(array), 150);
   });
+  it("should return the sum up is length equels one", () => {
+    const array = [10];
+    assert.strictEqual(reduceAdd(array), 10);
+  });
 
 });
