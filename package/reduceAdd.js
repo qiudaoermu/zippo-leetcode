@@ -14,7 +14,6 @@
 
 function reduceAdd(n) {
   if (!Array.isArray(n)) { throw new TypeError("Expect an Array") }
-  const [fe] = n;
-  return n.reduce(((a, b) => a + b), fe) - fe;
+  return n.reduce(((a, b) => a + b), 0);
 }
 export default reduceAdd;
